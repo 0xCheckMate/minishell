@@ -1,24 +1,11 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: ybellakr <ybellakr@student.42.fr>          +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/05/24 09:42:56 by ybellakr          #+#    #+#              #
-#    Updated: 2024/06/03 13:34:33 by ybellakr         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 CC = cc
 CC += -Werror -Wextra -Wall
 RM = rm -f
 NAME = minishell
 
-########## Define ANSI escape codes for colors
 GREEN=		\033[32m
 YELLOW=		\033[0;33m
-RESET=		\033[0m        # No Color
+RESET=		\033[0m  
 
 SRC_FILE =	parsing/minishell.c execution/ft_utlils.c parsing/ft_give_token.c parsing/ft_put_node.c parsing/ft_syntax.c parsing/ft_red_args.c parsing/ft_free.c\
 			 parsing/ft_remove_quote.c parsing/ft_holder_node.c parsing/ft_checking_files.c parsing/ft_ctrl_c.c execution/ft_tools.c\
