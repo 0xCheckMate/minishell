@@ -1,5 +1,6 @@
 Minishell
-https://sdmntprukwest.oaiusercontent.com/files/00000000-ee68-6243-9a0c-e382602ced6a/raw?se=2025-06-21T14%3A35%3A33Z&sp=r&sv=2024-08-04&sr=b&scid=23fe2861-b692-57b8-8430-b9c20565ee90&skoid=0a4a0f0c-99ac-4752-9d87-cfac036fa93f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-20T18%3A16%3A13Z&ske=2025-06-21T18%3A16%3A13Z&sks=b&skv=2024-08-04&sig=c/qCVUmc0TNPipDisdHLCJink2JT6590kkhXdE6iPs8%3D
+![Minishell Logo](./minishell.png)
+
 
 A simple UNIX command-line interpreter (shell) written in C, implementing a subset of bash features.
 
