@@ -77,7 +77,7 @@ brew install readline
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/minishell.git
+git clone https://github.com/0xCheckMate/minishell
 cd minishell
 Compile the project:
 
